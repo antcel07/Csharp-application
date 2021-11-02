@@ -4,8 +4,7 @@ using System.Text;
 
 namespace exams
 {
-    // UML diyagramındaki RefinedAbstraction kısmına denk gelmektedir.
-    // Abstraction (Message) sınıfından türer.
+   
     public class TextMessage : Message
     {
         public TextMessage(IMessageSender messageSender) : base(messageSender)
